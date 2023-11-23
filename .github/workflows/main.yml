@@ -1,0 +1,11 @@
+name: Hola mundo
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ejecutar aplicación Python
+        run: python HolaMundo.py
