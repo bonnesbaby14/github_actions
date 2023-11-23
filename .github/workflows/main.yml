@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ejecutar aplicación Python
-        run: python ./HolaMundo.py
+        run: python ./../HolaMundo.py
